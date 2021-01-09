@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exercício 3</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <h1>Aula 12 - Validações</h1>
+    <p>Tela de cadastramento do seu PET.</p>
+
+    <form id="form" novalidate>
+      <input id="name" placeholder="Pet name" required />
+
+      <input id="attributes" placeholder="" required />
+
+      <select id="choose" required>
+        <option value="">Select the type of your pet</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+      </select>
+
+      <button>Register</button>
+    </form>
+
+    <p id="result"></p>
+
+    <script src="atividade.js"></script>
+  </body>
+</html>

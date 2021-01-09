@@ -1,0 +1,93 @@
+html, body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #5F9EA0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header div{
+    width: 150px;
+    height: 80px;
+}
+
+header div img{
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+    position: absolute;
+}
+
+nav{
+    display: flex;
+    margin-right: 20px;
+}
+
+nav a{
+    color: white;
+    margin: 5px;
+    text-decoration: none;
+}
+
+nav a:hover{
+    font-weight: bolder;
+}
+
+.banner{
+    width: 100%;
+    height: 200px;
+}
+
+.texto{
+    background-color: rgba(128, 128, 128, 0.329);
+    text-align: center;
+    font-size: 18px;
+    width: 43%;
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.container2 img{
+    width: 250px;
+    height: 250px;
+    margin-top: -20px;
+}
+
+.div-imagens{
+    background-color: rgba(255, 192, 203, 0.589);
+    width: 500px;
+    height: 250px;
+    padding: 20px;
+}
+
+.div-imagens2{
+    background-color: rgba(255, 192, 203, 0.589);
+    width: 500px;
+    height: 250px;
+    /*margin-right: 300px;*/
+    padding: 20px;
+}
+
+.div-imagens3{
+    background-color: rgba(255, 192, 203, 0.589);
+    width: 500px;
+    height: 250px;
+    /*margin-right: px;*/
+    padding: 20px;
+}

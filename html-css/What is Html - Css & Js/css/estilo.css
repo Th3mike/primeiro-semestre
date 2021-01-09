@@ -1,0 +1,92 @@
+* {
+    /* Fonte usada do google https://fonts.google.com/specimen/Courier+Prime?sidebar.open=true&selection.family=Courier+Prime:ital,wght@1,700  */
+    font-family: 'Courier Prime', monospace;
+    text-align: center;
+}
+
+ul {
+    /* Usei para retirar as • da lista */
+    padding:0px;
+    /* Margem */
+    margin:0px;
+    background-color:#EDEDED;
+}
+
+ul li {
+    /* Usei para alinhar a lista */
+    display: inline;
+}
+/* Página 01 */
+
+.pg-01 {
+    background: orange;
+}
+
+.img-01 {
+    width: 135px;
+    height: 90px;
+}
+
+.h1-01 {
+    font-style: italic;
+    color: green;
+}
+
+.p-01 {
+    font-size: 18px;
+}
+
+.warning {
+    font-size: 30px;
+    color: red;
+}
+
+/* Página 02 */
+
+.pg-02 {
+    background-color: chartreuse;
+}
+
+.img-02 {
+    width: 185px;
+    height: 120px;
+}
+
+.h1-02 {
+    font-style: italic;
+    color: red;
+}
+
+.p-02 {
+    color: blue;
+    font-size: 20px;
+}
+
+/* Página 03 */
+
+.pg-03 {
+    background-color: black;
+}
+
+.img-03 {
+    width: 205px;
+    height: 130px;
+}
+
+.img-04 {
+    position:absolute;
+    left:50%;
+    top:50%;
+    margin-left:-110px;
+    margin-top:-40px;
+}
+
+.h1-03 {
+    font-style: italic;
+    color: brown;
+}
+
+.p-03 {
+    color: white;
+    font-size: 22px;
+}

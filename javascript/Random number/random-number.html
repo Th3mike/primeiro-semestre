@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteia um número de 1 até X</title>
+</head>
+<body>
+    <h1>Random number</h1>
+    <p>1 to X</p>
+    <form>
+        <input id="number" type="number" placeholder="Number" />
+        <button id="final">Sortear</button>
+    </form>
+
+    <p id="message"></p>
+
+    <script>
+        // Pegando ID NUMBER do input e da o foco do mouse
+        number.focus();
+
+        function sortear() {
+            event.preventDefault();
+            let limit = document.getElementById("number").value;
+            /* Floor 0,5 -  // Round 0.5 +*/
+            /* */
+            let random = Math.floor(Math.random() * limit) + 1;
+            message.innerHTML = `O número sorteado foi: ${random}.`;
+        }
+        // Chamando o botão, função ONCLICK = function sortear
+        final.onclick = sortear;
+    </script>
+</body>
+</html>
