@@ -1,0 +1,21 @@
+form{
+    text-align: center;
+    position: absolute;
+    display: grid;
+    width:100%;
+    height: 100%;
+    display: inline-block;
+    font-weight: bolder;
+}
+
+form input, select{
+    width: 360px;
+    border: 2px solid black;
+}
+
+form button{
+    cursor: pointer;
+    margin: 10px;
+    border-radius: 15px;
+    font-size: 20px;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Exercício 3</title>
+    <link rel="stylesheet" href="base.css" />
+  </head>
+  <body>
+    <h1>Exercício 3</h1>
+    <p>Verificando quem pode ou quem deve votar.</p>
+
+    <form id="form" novalidate>
+      <input id="name" placeholder="Informe um nome" required />
+
+      <input id="age" placeholder="Informe uma idade" required />
+
+      <select id="gender" required>
+        <option value="">Selecione o sexo</option>
+        <option value="f">Feminino</option>
+        <option value="m">Masculino</option>
+      </select>
+
+      <button>Adicionar pessoa</button>
+    </form>
+
+    <div>
+      <button id="view1">Quem pode votar?</button>
+      <button id="view2">Quem deve votar?</button>
+    </div>
+
+    <p id="result"></p>
+
+    <script src="atividade.js"></script>
+  </body>
+</html>
